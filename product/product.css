@@ -1,0 +1,362 @@
+* {
+    font-family: Calibri Light;
+    border-style: none;
+}
+
+.navbar-inverse, .navbar-fixed-top {
+    color: #484848;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #2a2a2a; 
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #2a2a2a;
+    color:#ffffff;
+  }
+
+a:hover{
+    color: white !important;
+}
+
+.special {
+    color: #484848;
+    letter-spacing: 0.03em;
+    word-spacing: 0.25em;
+    text-decoration: none;
+}
+
+
+
+body {
+    background: #121212;
+    padding-top: 70px;
+}
+
+.header {
+    background-color: #2a2a2a;
+    border-style: none;
+}
+
+.product {
+    align-content: center;
+}
+
+.product p {
+    text-align: center;
+    color: white;
+}
+
+.desc {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 1.75rem;
+    display: block;
+    padding: 25px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:target {
+    font-family: Calibri;
+    background-color: #d90000 !important;
+    border-radius: 0;
+    padding: 12px;
+    border: none;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    box-shadow: none;
+}
+
+hr {
+    width: 90%;
+}
+
+#price {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 1.75rem;
+    display: block;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+    display: none;
+}
+
+#block-id {
+    text-align: left;
+    align-content: center;
+    font-size: 1.58rem;
+    color: #9e9e9e;
+    width: 92%;
+    margin-left: 4.5%;
+}
+
+#block-id:first-line {
+    color: white;
+}
+
+.btn-lg {
+    font-family: Calibri;
+    border-radius: 0;
+    border: none;
+    background-color: #333333;
+    color: white;
+}
+
+.about {
+    text-align: left;
+    font-family: Calibri;
+    font-size: 2rem;
+}
+
+#info {
+    font-family: Calibri;
+    padding: 20px;
+}
+
+#show {
+    font-family: Calibri;
+    color: white;
+}
+
+.specs {
+    color: white;
+    font-family: Calibri;
+    font-size: 2rem;
+}
+
+.about_header {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.card-body {
+    background-color: #333333;
+    width: 90%;
+    margin-left: 5%;
+}
+
+table {
+    color: white;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+    font-family: Calibri Light;
+    color: #9e9e9e;
+    letter-spacing: 0.04em;
+    padding: 5%;
+    
+}
+
+table th {
+    text-align: left; 
+    font-family: Calibri Light;
+ }
+ 
+.page-footer{
+    width: 100%;     
+    background: #333333;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+.devs {
+    color: white;
+    font-family: Calibri;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.info-br {
+    display: none;
+}
+
+.john-cena {
+    background-color: #121212;
+}
+
+.devs:hover, .devs:active, .devs:focus {
+    color: #d90000 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .table-br {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .store-desk {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .special {
+        margin-left: -33.3333%;
+        margin-top: 1.6%;
+    }
+
+    .embed-responsive-item {
+        width: 90% !important;
+        margin-left: 5%;
+        height: 89.5% !important;
+    }
+
+    #logo {
+        width: 25%;
+        height: 25%;
+        margin-left: 5%;
+        margin-top: -2.75%;
+    }
+
+    .wrapper {
+        margin-top: 3.2%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .desc {
+        float: left;
+        margin-top: -16%;
+        margin-left: 29%;
+        font-size: 20px;
+        margin-right: 30%;
+        text-align: left !important;
+        width: 40%;
+        word-spacing: 50%;
+        letter-spacing: 0.5px;
+    }
+
+    #price {
+        float: right;
+        margin-top: -14.12%;
+        margin-right: 5.75%;
+        font-size: 19px;
+        word-spacing: 50%;
+        letter-spacing: 0.5px;
+    }
+
+    .cust-small {
+        float: right;
+        width: 21%;
+        margin-top: -11%;
+        margin-right: 5%;
+    }
+
+    .cust-small:hover, .cust-small:active {
+        float:right;
+        width: 21%;
+    }
+
+    .about-hr {
+        width: 64.05%;
+        float: right;
+        margin-top: -1.68%;
+        margin-right: 5%;
+    }
+
+    .left-desc {
+        float: left;
+        margin-left: 5%;
+    }
+
+    .show-wide {
+        width: 64.30%;
+        float:right;
+        margin-right: 5%;
+        margin-top: -3%;
+    }
+
+    .show-wide:hover, .show-wide:active, .show-wide:focus {
+        width: 64.30%;
+        float:right;
+        margin-right: 5%;
+        margin-top: -3%;
+    }
+
+    #block-id {
+        font-size: 18px;
+    }
+
+    .info-wide {
+        width: 73%;
+        margin-left: 26%;
+    }
+
+    .info-br {
+        display: inline-block;
+        margin: 0.75% 0;
+    }
+
+    .card {
+        width: 71.5%;
+        margin-left: 27%;
+        margin-top: -2.5%;
+    }
+
+    .table-borderless > tbody > tr > td,
+    .table-borderless > tbody > tr > th,
+    .table-borderless > tfoot > tr > td,
+    .table-borderless > tfoot > tr > th,
+    .table-borderless > thead > tr > td,
+    .table-borderless > thead > tr > th {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%; 
+    }
+
+    .table-br {
+        display: inline-block;
+        margin: 0.65% 0;
+    }
+
+    .esrb {
+        width: 25% !important;
+    }
+
+    .siege {
+        text-decoration: none !important; margin-left: -24.5% !important;
+    }
+
+    .metro {
+        text-decoration: none !important; margin-left: -31% !important; 
+    }
+
+    .cp {
+        text-decoration: none !important; margin-left: -30.15% !important;
+    }
+
+    .ow {
+        text-decoration: none !important; margin-left: -29.5% !important;
+    }
+
+    .wdl {
+        text-decoration: none !important; margin-left: -28.8% !important;
+    }
+
+    .b3 {
+        text-decoration: none !important; margin-left: -30.9% !important;
+    }
+
+    .twd {
+        text-decoration: none !important; margin-left: -18.6% !important;
+    }
+
+    .vmb2 {
+        text-decoration: none !important; margin-left: -21.3% !important;
+    }
+
+}
